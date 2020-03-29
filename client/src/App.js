@@ -40,13 +40,13 @@ class App extends React.Component {
     }
 
     render(){
-        return(<div style={{
+        return(
+        <main style={{
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
             backgroundColor: this.state.colorsPrimary[this.state.currentColorIndex]
             }}>
-            
             {/*Primary box center of the screen containing Quote and Button*/}
             <div class='container'>
                 <div class='row'>
@@ -54,14 +54,14 @@ class App extends React.Component {
                     </div>
                     <div class='col-8'>
                         <div class='card'>
-                            <h3 style={{
+                            <p style={{
                               fontFamily: 'Impact',
-                              fontSize: '30px',
+                              fontSize: '2vw',
                               textAlign: 'center',
                               margin: '50px',
                               color: this.state.colorsPrimary[this.state.currentColorIndex]
                             }}>
-                            {this.state.quotes[this.state.currentQuoteIndex]}</h3>
+                            {this.state.quotes[this.state.currentQuoteIndex]}</p>
                             <Button onClick={this.updateScreen}/>
                             <SocialFollow/>
                         </div>
@@ -70,7 +70,7 @@ class App extends React.Component {
                     </div>
                 </div>
             </div>
-            </div>
+            </main>
             )
         }  
     

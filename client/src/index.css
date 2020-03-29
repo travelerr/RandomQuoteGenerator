@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#twitter:focus {
+  background: rgb(228, 28, 28);
+  outline: 3px solid orange;
+}

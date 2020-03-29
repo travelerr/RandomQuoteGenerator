@@ -1,12 +1,11 @@
 import React from 'react';
+import './index.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {
-    faTwitter
-} from '@fortawesome/free-brands-svg-icons';
+import {faTwitter} from '@fortawesome/free-brands-svg-icons';
 
 export default function SocialFollow() {
     return(
-        <div style={{
+        <div id="twitter" style={{
             position: 'absolute',
             bottom: '5px',
             left: '10px'
