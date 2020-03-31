@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './index.css';
 import SocialFollow from "./SocialFollow";
 
 
@@ -54,9 +55,9 @@ class App extends React.Component {
                     </div>
                     <div class='col-8'>
                         <div class='card'>
-                            <p style={{
+                            <p class='quote-text' style={{
                               fontFamily: 'Impact',
-                              fontSize: '2vw',
+                              fontSize: '30px',
                               textAlign: 'center',
                               margin: '50px',
                               color: this.state.colorsPrimary[this.state.currentColorIndex]
