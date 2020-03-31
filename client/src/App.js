@@ -80,7 +80,7 @@ class App extends React.Component {
 const Button = ({ onClick }) => (
     <button id='button' onClick={onClick} type='button' className='btn btn-primary' style={{
         position: 'absolute',
-        bottom: '10px',
+        bottom: '6px',
         right: '10px',}}>
         Next Quote
     </button>

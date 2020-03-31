@@ -18,21 +18,3 @@ code {
 #twitter:focus {
   outline: 3px solid rgb(46, 130, 168);
 }
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) 
-and (-webkit-device-pixel-ratio : 3)
-and (orientation : portrait) {
-  #quote-text{
-    font-size: 5px;
-  }
-
-  #button{
-    font-size: 10px;
-  }
-
-  #twitter{
-    font-size: 10px;
-  }
-}
