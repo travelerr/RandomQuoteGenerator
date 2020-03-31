@@ -49,15 +49,15 @@ class App extends React.Component {
             backgroundColor: this.state.colorsPrimary[this.state.currentColorIndex]
             }}>
             {/*Primary box center of the screen containing Quote and Button*/}
-            <div class='container'>
-                <div class='row'>
-                    <div class='col'>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col'>
                     </div>
-                    <div class='col-8'>
-                        <div class='card'>
+                    <div className='col-8'>
+                        <div className='card'>
                             <p id='quote-text' style={{
                               fontFamily: 'Impact',
-                              fontSize: '30px',
+                              fontSize: '3vh',
                               textAlign: 'center',
                               margin: '50px',
                               color: this.state.colorsPrimary[this.state.currentColorIndex]
@@ -67,7 +67,7 @@ class App extends React.Component {
                             <SocialFollow/>
                         </div>
                     </div>
-                    <div class='col'>
+                    <div className='col'>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ class App extends React.Component {
 }
 
 const Button = ({ onClick }) => (
-    <button id='button' onClick={onClick} type='button' class='btn btn-primary' style={{
+    <button id='button' onClick={onClick} type='button' className='btn btn-primary' style={{
         position: 'absolute',
         bottom: '10px',
         right: '10px',}}>
