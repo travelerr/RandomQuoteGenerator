@@ -55,7 +55,7 @@ class App extends React.Component {
                     </div>
                     <div class='col-8'>
                         <div class='card'>
-                            <p class='quote-text' style={{
+                            <p id='quote-text' style={{
                               fontFamily: 'Impact',
                               fontSize: '30px',
                               textAlign: 'center',
@@ -78,7 +78,7 @@ class App extends React.Component {
 }
 
 const Button = ({ onClick }) => (
-    <button onClick={onClick} type='button' class='btn btn-primary' style={{
+    <button id='button' onClick={onClick} type='button' class='btn btn-primary' style={{
         position: 'absolute',
         bottom: '10px',
         right: '10px',}}>

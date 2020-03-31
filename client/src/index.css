@@ -6,12 +6,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 #twitter:focus {
-  background: rgb(228, 28, 28);
   outline: 3px solid rgb(46, 130, 168);
+}
+
+@media only screen and (max-device-width: 480px) {
+  #quote-text{
+    font-size: 20px;
+  }
+
+  #button{
+    font-size: 10px;
+  }
+
+  #twitter{
+    font-size: 10px;
+  }
 }
